@@ -21,9 +21,3 @@ add_action('admin_notices', function () {
     }
 });
 
-
-//Code by Musa
-
-//Phase 2 
-
-// Code by musa
