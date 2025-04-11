@@ -7,6 +7,7 @@ Author: Abdur-Rehman
 Author URI: https://steptocode.com
 License: GPL2
 */
+
 if (!defined('ABSPATH')) exit;
 
 define('ADMIN_NOTES_PLUGIN_DIR', plugin_dir_path(__FILE__));
@@ -23,3 +24,4 @@ add_action('admin_notices', function () {
 
 
 //Code by Musa
+//Code by abdurehman
