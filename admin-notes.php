@@ -23,15 +23,3 @@ add_action('admin_notices', function () {
 });
 
 
-//Code by Musa
-//Code by abdurehman
-
-//Code by abdurehman
-
-
-// Phase2
-//Code by AbdurRehman
-
-//Phase 2 
-
-// Code by musa
