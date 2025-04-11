@@ -14,12 +14,15 @@ define('ADMIN_NOTES_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
 require_once ADMIN_NOTES_PLUGIN_DIR . 'includes/settings-page.php';
 
+
+
 // Show notice on dashboard
 add_action('admin_notices', function () {
     $message = get_option('admin_notes_message', '');
+    $type = get_option('admin_notes_type', 'info');
+
     if (!empty($message)) {
-        echo '<div class="notice notice-info is-dismissible"><p>' . esc_html($message) . '</p></div>';
+        echo '<div class="notice notice-' . esc_attr($type) . ' is-dismissible"><p>' . esc_html($message) . '</p></div>';
     }
+
 });
-
-
